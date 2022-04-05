@@ -48,7 +48,7 @@ function YourComponent() {
     ;<span>Injected connector not found</span>
   }
 
-  return <button onClick={connect(new InjectedConnector())}>Connect Wallet</button>
+  return <button onClick={() => connect(new InjectedConnector())}>Connect Wallet</button>
 }
 ```
 
